@@ -63,7 +63,11 @@ footer{
     padding-top: 50px;
 }
 
-.under-footer{
+footer .under-footer{
     height: 100px;
     background-color: var(--dark-blue);
+}
+
+footer .around i{
+    border-radius: 50%;
 }
