@@ -5,32 +5,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==' crossorigin='anonymous'/>
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Freelancer</title>
 </head>
 <body>
     <header>
-        <div class="container d-flex">
+        <div class="container d-flex justify-content-between align-items-center h-100">
             <div>
-                <h1>START BOOTSTRAP</h1>
+                <h4 class="m-0">START BOOTSTRAP</h4>
             </div>
-            <nav>
-
+            <nav class="d-md-none border px-2 py-1">
+                <i class="fa-solid fa-bars fa-2x"></i>
             </nav>
-            <nav>
-                <ul>
-                    <li>
+            <nav class="d-none d-md-block">
+                <ul class="list-inline m-0">
+                    <li class="list-inline-item">
                         PORTFOLIO
                     </li>
-                    <li>
+                    <li class="list-inline-item">
                         ABOUT
                     </li>
-                    <li>
+                    <li class="list-inline-item">
                         CONTACT
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
+    <main>
+        <section id="jumbotron" class="p-5">
+            <div class="container d-flex flex-column align-items-center">
+                <div class="img-con">
+                    <img class="img-fluid" src="img/avatar.svg" alt="avatar">
+                </div>
+                <h1>
+                    START BOOTSTRAP
+                </h1>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="container">
+                <h3 class="text-black text-center">PORTFOLIO</h3>
+                <div class="row flex-column g-4 flex-md-row">
+                    <div class="col col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/cabin.png" alt="cabin">
+                    </div>
+                    <div class="col col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/cake.png" alt="cake">
+                    </div>
+                    <div class="col col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/circus.png" alt="circus">
+                    </div>
+                    <div class="col col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/game.png" alt="game">
+                    </div>
+                    <div class="col col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/safe.png" alt="safe">
+                    </div>
+                    <div class="col col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/submarine.png" alt="submarine">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container text-center">
+                <h3 class="">ABOUT</h3>
+                <div class="row px-5">
+                    <div class="col-12 col-md-6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, eius ratione! Reiciendis  quos repellat nisi, voluptas laudantium tempore consequatur alias cum laborum omnis beatae   cupiditate perferendis exercitationem corporis? Optio, sed!</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, eius ratione! Reiciendis  quos repellat nisi, voluptas laudantium tempore consequatur alias cum laborum omnis beatae   cupiditate perferendis exercitationem corporis? Optio, sed!</p>
+                    </div>
+                </div>
+                <button class="btn text-white border mt-4">
+                    Download
+                </button>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container text-center">
+                <h3>CONTACT ME</h3>
+            <h2>Form</h2>
+            <h2>Input</h2>
+            <h2>Input</h2>
+            <h2>Input</h2>
+            <br>
+            <h2>Send</h2>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center">
+        <div class="container">
+            <div class="row flex-column flex-md-row g-4">
+                <div class="col location">
+                    <h4>
+                        LOCATION
+                    </h4>
+                    <address class="col address">
+                        2215 John Daniel Drive Clark, MO 54243
+                    </address>
+                </div>
+                <div class="col around">
+                    <h4>
+                        AROUND THE WEB
+                    </h4>
+                    <i class="fa-solid fa-earth-americas fa-2x"></i>
+                </div>
+                <div class="col freelancer">
+                    <h4>
+                        ABOUT FREELANCER
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ad a, doloribus similique provident iste.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="under-footer d-flex align-items-center justify-content-center">
+            <div class="container">
+                Copyright Your Website 2019
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
