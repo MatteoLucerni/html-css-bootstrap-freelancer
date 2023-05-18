@@ -70,9 +70,9 @@
             </div>
         </section>
         <section id="about">
-            <div class="container text-center">
+            <div class="container text-center flex-column d-flex align-items-center justify-content-center">
                 <h3 class="">ABOUT</h3>
-                <div class="row px-5">
+                <div class="row justify-content-around px-5">
                     <div class="col-12 col-md-6">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, eius ratione! Reiciendis  quos repellat nisi, voluptas laudantium tempore consequatur alias cum laborum omnis beatae   cupiditate perferendis exercitationem corporis? Optio, sed!</p>
                     </div>
@@ -86,14 +86,25 @@
             </div>
         </section>
         <section id="contact">
-            <div class="container text-center">
-                <h3>CONTACT ME</h3>
-            <h2>Form</h2>
-            <h2>Input</h2>
-            <h2>Input</h2>
-            <h2>Input</h2>
-            <br>
-            <h2>Send</h2>
+            <div class="container d-flex flex-column justify-content-center align-items-center">
+                <h3 class="m-b-3 text-center">
+                    CONTACT ME
+                </h3>
+                <form action="#" method="post">
+                    <div class="input-group border-bottom mb-2">
+                        <input type="text" class="form-control border-0 mb-2 ps-0" placeholder="Name" id="name">
+                    </div>
+                    <div class="input-group border-bottom mb-2">
+                        <input type="email" class="form-control border-0 mb-2 ps-0" placeholder="Email" id="email">
+                    </div>
+                    <div class="input-group border-bottom mb-2">
+                        <input type="number" class="form-control border-0 mb-2 ps-0" placeholder="Phone Number" id="phone-number">
+                    </div>
+                    <div class="input-group border-bottom mb-2 p-0">
+                        <textarea class="form-control border-0 mb-2 ps-0" rows="8" placeholder="Message"></textarea>
+                    </div>
+                    <input class="btn px-3 py-2" type="submit" value="Send">
+                </form>
             </div>
         </section>
     </main>
@@ -131,7 +142,7 @@
         </div>
         <div class="under-footer d-flex align-items-center justify-content-center">
             <div class="container">
-                Copyright Your Website 2019
+                Copyright <i class="fa-light fa-copyright"></i> Your Website 2019
             </div>
         </div>
     </footer>
