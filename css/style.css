@@ -17,6 +17,15 @@ section h3{
     margin-bottom: 40px;
 }
 
+.star-line{
+    display: inline-block;
+    height: 5px;
+    width: 70px;
+    background-color: currentColor;
+    border-radius: 40px;
+    vertical-align: middle;
+}
+
 /* header */
 
 header{
